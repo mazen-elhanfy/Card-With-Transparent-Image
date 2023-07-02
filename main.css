@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 800px;
+    height: 500px;
+    background-color: #ddd;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container > div{
+       width: 60%;
+       height: 60%;
+       background-color: #fff;
+       border-radius:10px ;
+       -webkit-border-radius:10px ;
+       -moz-border-radius:10px ;
+       -ms-border-radius:10px ;
+       -o-border-radius:10px ;
+       position: relative;
+       z-index: 1;
+       transform: translateY(4%);
+       -webkit-transform: translateY(4%);
+       -moz-transform: translateY(4%);
+       -ms-transform: translateY(4%);
+       -o-transform: translateY(4%);
+}
+.container img{
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    z-index: 4;
+}
+.first h2{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    text-transform: capitalize;
+    color: rgb(2 88 187);
+}
+.first .one{
+    color: #777;
+    text-transform: capitalize;
+    /* font-weight: bold; */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    font-size: 20px;
+    top: 10%;
+    font-style: italic
+}
+.first .two{
+    width: 80%;
+    padding: 10px;
+    position: absolute;
+    left: 10%;
+    background-color: #ddd;
+    top: 45%;
+}
+.first .two,
+.first .three,
+.first .four{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    color: rgb(2 88 187) ;
+    text-transform: capitalize;
+}
+.first .three{
+    width: 80%;
+        padding: 10px;
+        position: absolute;
+        left: 10%;
+        background-color: #ddd;
+        top: 60%;
+}
+.first .four{
+    width: 80%;
+        padding: 10px;
+        position: absolute;
+        left: 10%;
+        background-color: #ddd;
+        top: 75%;
+}
+.fa-facebook,
+.fa-linkedin-in,
+.fa-github{
+    font-size: 20px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+}
+.fa-facebook{
+    background-color: rgb(2 88 187);
+}
+.fa-linkedin-in{
+    background-color: rgb(2 88 187)
+}
+.fa-github{
+    background-color: rgb(2 88 187);
+    color: #000;
+}
